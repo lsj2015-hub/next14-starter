@@ -35,7 +35,7 @@ const SinglePostpage = async ({ params }) => {
   // FETCH DATA WITHOUT AN API
   const post = await getPost(slug);
 
-  console.log(post);
+  // console.log(post);
 
   return (
     <div className={styles.container}>

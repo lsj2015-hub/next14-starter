@@ -13,10 +13,10 @@ const NavigationTestPage = () => {
   const sort = searchParams.get('sort');
   const price = searchParams.get('price');
 
-  console.log('pathname => ', pathname);
-  console.log('query1 => ', q);
-  console.log('query2 => ', sort);
-  console.log('query3 => ', price);
+  // console.log('pathname => ', pathname);
+  // console.log('query1 => ', q);
+  // console.log('query2 => ', sort);
+  // console.log('query3 => ', price);
 
   const handleClick = () => {
     console.log('clicked');
