@@ -9,6 +9,11 @@ import styles from './contact.module.css';
 //   ssr: false,
 // });
 
+export const metadata = {
+  title: 'Contact Page',
+  description: 'Contact description',
+};
+
 const ContactPage = () => {
   return (
     <div className={styles.container}>
